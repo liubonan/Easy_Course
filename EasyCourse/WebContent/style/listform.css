@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+.formcontainer{margin:20px 30px; min-height:600px;}
+.formcontainer h3{padding:0px 30px;}
+
+#index_list,
+#index_user_list{margin:30px 20px 0px 20px; min-height:0px;}
+#index_list h3,
+#index_user_list h3{padding:0px 20px;}
+#index_user_list .grey{color:#949491;}
+
+#index_list fieldset,
+#index_user_list fieldset{
+	padding:10px 20px;
+}
+#index_user_list fieldset{
+	border:none;
+}
+#index_user_list fieldset.list_title{
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+#index_user_list fieldset.list_title:hover{
+	background:none;
+}
+form.list_form fieldset {
+	margin: 0px;
+	padding: 15px 30px;;
+	border-bottom: 1px solid #eee;
+}
+form.list_form fieldset:first-child{
+	border-top: 1px solid #eee;
+}
+form.list_form fieldset:hover{
+	background:#F3F4EF;
+}
+
+form.list_form fieldset label {
+	display: block;
+	margin: 0 0 15px 0;
+	font-weight: bold;
+	font-size:14px;
+}
+
+form.list_form fieldset label,
+.formcontainer p a{
+	color:#70A8AD;
+}
+form.list_form fieldset label:hover,
+.formcontainer p a:hover{
+	color:#629899;
+}
+form.list_form .link{
+	float:right;
+	padding-right:20px;
+}

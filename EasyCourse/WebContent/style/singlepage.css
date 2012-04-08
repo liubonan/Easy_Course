@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+h3{font-size:16px; font-weight:bold; line-height:1.1;}
+.img_grid_left{padding-left:10px;}
+.min_600{min-height:600px;}
+
+/* Info
+--------------------------------------------------------------------------------------------*/
+h3{font-size:16px; font-weight:bold; line-height:1.1;}
+.info{padding-left:10px;}
+.info img{float:left;width:100px; margin-right:20px; background:#ECEBE7;}
+.info ul{float:left; line-height:20px;}
+.info ul li{ color:#B3B3B3;}
+.info ul li a{color:#70A8AD;}
+.info ul li a:hover{color:#629899;}
+
+/* Comment List
+--------------------------------------------------------------------------------------------*/
+ol.comments {padding-left:10px;}
+ol.comments li {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+ol.comments li:last-child {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+ol.comments li:first-child {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+
+ol.comments li p {
+	line-height:1.4;
+	margin:0 10px;
+}
+ol.comments li p span.meta {
+	margin-top:10px;
+	display: block;
+	color: #999;
+}	
+ol.comments li a {
+	color:#70A8AD;
+}
+ol.comments li a:hover{
+	color:#629899;
+}
+
+/* Add my comments
+--------------------------------------------------------------------------------------------*/
+.create_comm {padding-left:10px;}
+
+form.create_comm fieldset {
+	margin: 0 0 20px 0;
+}
+
+form.create_comm fieldset label {
+	display: block;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	color:#949491;
+	font-size:14px;
+}
+form.create_comm fieldset input[type="text"]{width:50%;}
+form.create_comm fieldset textarea{width:80%;}
+
+form.create_comm fieldset input[type="text"],
+form.create_comm fieldset textarea {
+	display: block;
+	padding: 5px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+form.create_comm fieldset input.form-text:focus {
+	border: 1px solid #ccc;
+	background: #fff;
+}
+form.create_comm fieldset textarea {
+	height: 150px;
+}
+form.create_comm fieldset select {
+	min-width: 25%;
+	margin: 0;
+}
+form fieldset p.create_comm_help {
+	margin: 5px 0 0 0;
+	font-size: 10px;
+	color: #999;
+}
+
+/* Course list / book list for single book
+--------------------------------------------------------------------------------------------*/
+#index_grid{padding:0 40px;}
+#index_grid ol.img_grid li{
+	margin:0 0 20px 0px;
+}
+
+ol.img_grid li {
+	float: left;
+	width:90px;
+	margin:0 0 10px 5px;
+}
+ol.img_grid li .img_grid_container{
+	width:70px;
+	height:85px;
+	position:relative;
+}
+ol.img_grid li img {
+	width:70px;
+	position:absolute;
+	clip:rect(0px,70px,85px,0px);
+	background:#ECEBE7;
+	margin:0 10px 6px 10px;
+	top:0px;
+	left:0px;
+}
+ol.img_grid p{
+	width:80px;
+	margin:0px;
+	text-align:center;
+	word-wrap:break-word;
+}
+ol.img_grid p a{
+	line-height:14px;
+	color:#70A8AD;
+	
+}
+ol.img_grid p a:hover{
+	color:#629899;
+}
+
+/* Mark Status
+--------------------------------------------------------------------------------------------*/
+.mark_course{padding-left:10px;}
+form.mark_status fieldset{float:left;}
+form.mark_status ul li{float:left; line-height:20px; margin-right:10px;}
